@@ -63,7 +63,7 @@
        - 📄 [models.py](ImageMatching/accounts/models.py)
        - 📄 [my\_adapter.py](ImageMatching/accounts/my_adapter.py)
 
-       # 실제 서비스에 사용하는 페이지 템플릿
+       - 실제 서비스에 사용하는 페이지 템플릿
        - 📂 __templates__
          - 📂 __accounts__
            - 📄 [account\_change.html](ImageMatching/accounts/templates/accounts/account_change.html)
