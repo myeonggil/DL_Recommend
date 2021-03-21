@@ -1,1 +1,4 @@
-# Myeonggil_Project
+# ImageMatching Recommend Service
+
+# 목적
+## 1. 
