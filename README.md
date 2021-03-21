@@ -20,13 +20,13 @@
          - 📄 [prod.py](ImageMatching/ImageMatching/settings/prod.py)
        - 📂 __static__
 
-    	 # 인스타그램 오픈 소스 사용
+    	 - 인스타그램 오픈 소스 사용
          - 📂 __bootstrap__
          .
          .
          .
 
-       # 프로젝트에서 사용하는 url을 참조하는 url을 정의하고 기본 layout을 메인 웹페이지나 하위 페이지에서 import해서 사용
+       - 프로젝트에서 사용하는 url을 참조하는 url을 정의하고 기본 layout을 메인 웹페이지나 하위 페이지에서 import해서 사용
        - 📂 __templates__
          - 📄 [404.html](ImageMatching/ImageMatching/templates/404.html)
          - 📄 [500.html](ImageMatching/ImageMatching/templates/500.html)
@@ -34,7 +34,7 @@
        - 📄 [urls.py](ImageMatching/ImageMatching/urls.py)
        - 📄 [wsgi.py](ImageMatching/ImageMatching/wsgi.py)
 
-     # 홈페이지별 크롤링 코드
+     - 홈페이지별 크롤링 코드
      - 📄 [\_alondon.py](ImageMatching/_alondon.py)
      - 📄 [\_apparel.py](ImageMatching/_apparel.py)
      - 📄 [\_dj2.py](ImageMatching/_dj2.py)
@@ -48,7 +48,7 @@
        - 📄 [apps.py](ImageMatching/accounts/apps.py)
        - 📄 [forms.py](ImageMatching/accounts/forms.py)
 
-       # mysql DB 마이그레이션으로 서비스에 필요한 테이블 구조 정의
+       - mysql DB 마이그레이션으로 서비스에 필요한 테이블 구조 정의
        - 📂 __migrations__
          - 📄 [0001\_initial.py](ImageMatching/accounts/migrations/0001_initial.py)
          - 📄 [0002\_auto\_20170618\_1148.py](ImageMatching/accounts/migrations/0002_auto_20170618_1148.py)
@@ -59,7 +59,7 @@
          - 📄 [0013\_auto\_20170703\_1105.py](ImageMatching/accounts/migrations/0013_auto_20170703_1105.py)
          - 📄 [\_\_init\_\_.py](ImageMatching/accounts/migrations/__init__.py)
 
-       # 마이그레이션전 필요한 테이블, 필드를 정의 
+       - 마이그레이션전 필요한 테이블, 필드를 정의 
        - 📄 [models.py](ImageMatching/accounts/models.py)
        - 📄 [my\_adapter.py](ImageMatching/accounts/my_adapter.py)
 
@@ -73,13 +73,13 @@
            - 📄 [profile.html](ImageMatching/accounts/templates/accounts/profile.html)
            - 📄 [signup.html](ImageMatching/accounts/templates/accounts/signup.html)
 
-       # 직접적인 url경로와 페이지 뷰를 컨트롤
+       - 직접적인 url경로와 페이지 뷰를 컨트롤
        - 📄 [urls.py](ImageMatching/accounts/urls.py)
        - 📄 [views.py](ImageMatching/accounts/views.py)
      - 📂 __crawler__
        - 📄 [info\_save.py](ImageMatching/crawler/info_save.py)
 
-     # CNN 학습에 필요한 데이터를 list형태로 저장해서 다시 학습을 진행할 때 바로학습을 데이터를 로드하여 학습할 수 있도록 구성
+     - CNN 학습에 필요한 데이터를 list형태로 저장해서 다시 학습을 진행할 때 바로학습을 데이터를 로드하여 학습할 수 있도록 구성
      - 📂 __learning__
        - 📄 [cardigan\_score.npy](ImageMatching/learning/cardigan_score.npy)
        - 📄 [checkpoint](ImageMatching/learning/checkpoint)
@@ -145,14 +145,6 @@
          - 📄 [zYvLXpoC.jpeg](ImageMatching/media/post/zYvLXpoC.jpeg)
      - 📄 [my\_file.npy](ImageMatching/my_file.npy)
      - 📂 __post__
-       - 📄 [\_\_init\_\_.py](ImageMatching/post/__init__.py)
-       - 📂 __\_\_pycache\_\___
-         - 📄 [\_\_init\_\_.cpython\-35.pyc](ImageMatching/post/__pycache__/__init__.cpython-35.pyc)
-         - 📄 [admin.cpython\-35.pyc](ImageMatching/post/__pycache__/admin.cpython-35.pyc)
-         - 📄 [forms.cpython\-35.pyc](ImageMatching/post/__pycache__/forms.cpython-35.pyc)
-         - 📄 [models.cpython\-35.pyc](ImageMatching/post/__pycache__/models.cpython-35.pyc)
-         - 📄 [urls.cpython\-35.pyc](ImageMatching/post/__pycache__/urls.cpython-35.pyc)
-         - 📄 [views.cpython\-35.pyc](ImageMatching/post/__pycache__/views.cpython-35.pyc)
        - 📄 [admin.py](ImageMatching/post/admin.py)
        - 📄 [apps.py](ImageMatching/post/apps.py)
        - 📄 [forms.py](ImageMatching/post/forms.py)
